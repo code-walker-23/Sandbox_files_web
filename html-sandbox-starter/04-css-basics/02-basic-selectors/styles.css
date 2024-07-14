@@ -1,0 +1,46 @@
+/* type selector */
+h2 {
+  color: red;
+}
+
+a {
+  color: blue;
+}
+
+/* Class Selector */
+
+.sporty{
+  color: green;
+}
+.casual{
+  color: orange;
+}
+.formal{
+  color: purple;
+}
+
+/* ID Selector */
+
+#container{
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* Multiple selectors */
+
+.sporty,.casual{
+  font-size: 35px;
+}
+
+/* Descendant style */
+
+#container p,a{
+  color:aquamarine;
+}
+
+/* Body Selector */
+html,body{
+  font-family: 'Arial', sans-serif;
+  border:3px solid red; /* Border is not inherited by all elements as font family */
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <head>
+      <h1>Apartment Search</h1>
+    </head>
+
+    <main>
+      <form action="">
+        <div>
+          <label for="loaction">Location</label>
+          <input type="text" name="loaction" id="location">
+        </div>
+        <br>
+  
+        <div>
+          <label for="monthlyPrice">Monthly Price</label>
+          <input type="range" name="monthlyPrice" id="monthlyPrice" min="1000" max="10000" list="allPirces">
+          <datalist id="allPirces">
+            <option value="1000"></option>
+            <option value="2000"></option>
+            <option value="3000"></option>
+            <option value="4000"></option>
+            <option value="5000"></option>
+            <option value="6000"></option>
+            <option value="7000"></option>
+            <option value="8000"></option>
+            <option value="9000"></option>
+            <option value="10000"></option>
+          </datalist>
+        </div>
+        <br>
+  
+        <div>
+          <label for="noOfBedrooms">Bedrooms</label>
+          <input type="number" name="noOfBedrooms" id="noOfBedrooms">
+        </div>
+        <br>
+  
+        <div>
+          <label for="noOfBathrooms">Bathroom</label>
+          <input type="number" name="noOfBathrooms" id="noOfBathrooms">
+        </div>
+        <br>
+  
+        <div>
+          <label for="labrador">Labrador</label>
+          <input type="checkbox" name="labrador" id="labrador">
+  
+          <label for="golden Retriever">Golden Retriever</label>
+          <input type="checkbox" name="golden Retriever" id="golden Retriever">
+        </div>
+        <br>
+  
+        <div>
+          <label for="dateAvailables">Date Available</label>
+          <input type="date" name="dateAvailable" id="dateAvailables" list="dateAvailable">
+          <datalist id="dateAvailable">
+            <option value="2021-01-01"></option>
+            <option value="2021-02-01"></option>
+            <option value="2021-03-01"></option>
+            <option value="2021-04-01"></option>
+            <option value="2021-05-01"></option>
+        </div>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    
+  </body>
+</html>

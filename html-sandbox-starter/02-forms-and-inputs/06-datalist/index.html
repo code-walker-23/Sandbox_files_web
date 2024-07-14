@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>Favourite Programming Language</h1>
+
+    <form action="">
+      <label for="favProgLang">Favourite Programming Language</label>
+      <input list="languages" name="favProgLang" id="favProgLang">
+      <datalist id="languages">
+        <option value="C"></option>
+        <option value="PHP"></option>
+        <option value="Python"></option>
+        <option value="Java"></option>
+        <option value="C++"></option>
+      </datalist>
+      <!-- <br><br> -->
+      <!-- <input type="submit" value="Submit"> -->
+      <br><br>
+      <input type="time" list="popularHours"/>
+      <datalist id="popularHours">
+        <option value="09:00"></option>
+        <option value="12:00"></option>
+        <option value="15:00"></option>
+        <option value="18:00"></option>
+        <option value="21:00"></option>
+      </datalist>
+
+      <br><br>
+
+      <label for="tick">Tip Amount</label>
+      <input type="range" name="tick" id="tick" list="tickmarks" min="0" max="100">
+      <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="25"></option>
+        <option value="50"></option>
+        <option value="75"></option>
+        <option value="100"></option>
+      </datalist>
+
+      <br><br>
+
+      <label for="colors">Pick a Color</label>
+      <input type="color" name="colors" id="colors" list="redColor">
+      <datalist id="redColor">
+        <option value="#ff0000"></option>
+        <option value="#ff3333"></option>
+        <option value="#ff6666"></option>
+        <option value="#ff9999"></option>
+        <option value="#ffcccc"></option>
+      </datalist>
+
+    </form>
+  </body>
+</html>

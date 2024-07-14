@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Emmet Crash Course</h1>
+    <!-- p.text-lg and hit enter -->
+    <p class="text-lg"></p>
+    <!-- div.text-centre and hit enter or .car-text-centre -->
+    <div class="card-text-centre"></div>
+    <div class="text-centre"></div>
+    <!-- .text-xl.text-centre and hit enter -->
+    <div class="text-xl tect-centre"></div>
+    <!-- #main and hit enter -->
+    <div id="main"></div>
+    <!-- #main.text-centre and hit enter -->
+    <div id="main" class="text-centre"></div>
+    <!-- div>p hit enter -->
+    <div>
+      <p></p>
+    </div>
+    <!-- #main>p.text -->
+    <div id="main">
+      <p class="card-text-centre"></p>
+    </div>
+    <!-- div>ul>li*5 hit enter -->
+    <div>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </div>
+    <!-- div+p hit enter -->
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div></div>
+    <p></p>
+    <div class="test-centr"></div> + <p id="main"></p>
+    <!-- div>(header>ul>li*2>a) -->
+    <div>
+      <header>
+        <ul>
+          <li><a href=""></a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </header>
+      <footer>
+        <p></p>
+      </footer>
+    </div>
+    <p>hello world</p>
+    <!-- ul>li{item $}*4 -->
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+    </ul>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, quis?</p>
+    <!-- a:link -->
+    <a href="http://"></a>
+    <a href="http://"></a>
+  </body>
+</html>
+<!-- The two `<div>` elements you provided are not the same. Here is the breakdown:
+
+1. `<div class="text-xl tect-centre"></div>`:
+   - This div has two classes: `text-xl` and `tect-centre`.
+
+2. `<div class="text-xl" class="tect-centre"></div>`:
+   - This is incorrect HTML because the `class` attribute is repeated. Only the first `class` attribute (`class="text-xl"`) will be recognized, and the second one will be ignored.
+
+To apply both classes properly, the correct HTML should be:
+
+```html
+<div class="text-xl tect-centre"></div>
+```
+
+This way, both classes (`text-xl` and `tect-centre`) are applied to the `<div>`. 
+  
+  
+  The second `class` attribute will not be recognized or applied in standard HTML because an element can only have one `class` attribute. When multiple `class` attributes are present, only the first one is processed, and subsequent ones are ignored.
+
+To apply multiple classes to an element, they should be combined into a single `class` attribute, separated by spaces. For example:
+
+```html
+<div class="text-xl tect-centre"></div>
+```
+
+This ensures that both `text-xl` and `tect-centre` classes are applied to the `<div>`.-->
